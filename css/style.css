@@ -1,0 +1,41 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 40px;
+    height: 40px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 20px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #0606cd;
+	border: 1px solid #000;
+}
+
+body {
+    background: rgb(103,145,242);
+    background: -moz-radial-gradient(circle, rgba(103,145,242,1) 40%, rgba(8,0,245,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(103,145,242,1) 40%, rgba(8,0,245,1) 100%);
+    background: radial-gradient(circle, rgba(103,145,242,1) 40%, rgba(8,0,245,1) 100%) no-repeat;
+    height: 100vh;
+}

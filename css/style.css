@@ -31,7 +31,11 @@ a, a:hover {
 	background-color: #0606cd;
 	border: 1px solid #000;
 }
-
+.header{
+	text-align: center;
+	font-size: 30px;
+	line-break: nobreak;
+}
 body {
     background: rgb(103,145,242);
     background: -moz-radial-gradient(circle, rgba(103,145,242,1) 40%, rgba(8,0,245,1) 100%);
